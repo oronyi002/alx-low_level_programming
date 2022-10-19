@@ -1,9 +1,10 @@
 #include "main.h"
+#include <unistd.h>
 
 /**
-  * main - Entry point
+  * main - Prints "Holberton" followed by a new line.
   *
-  * Return: Always 0
+  * Return: Always 0.
   */
 int main(void)
 {
@@ -16,5 +17,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
