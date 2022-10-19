@@ -1,5 +1,4 @@
 #include "main.h"
-#include <unistd.h>
 
 /**
   * main - Prints "Holberton" followed by a new line.
