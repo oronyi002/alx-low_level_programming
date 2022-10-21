@@ -1,31 +1,21 @@
-#include "main.h"
+include "main.h"
 
 /**
- * print_triangle - a function that prints a triangle
- * @size: size of the triangle
- * Return: triangle of '#'s
+ * _isdigit -  a function that checks for a digit 0-9
+ * @c: input
+ * Return: 1 if c is a digit, 0 otherwise
  */
-void print_triangle(int size)
-{
-	int sp, ro, tr;
 
-	if (size <= 0)
-	{
-		_putchar('\n');
-	}
+int _isdigit(int c)
+
+{
+
+	if ((c >= 48) && (c <= 57))
+
+		return (1);
+
 	else
-	{
-		for (ro = 0; ro <= (size - 1); ro++)
-		{
-			for (sp = 0; sp < (size - 1) - ro; sp++)
-			{
-				_putchar(' ');
-			}
-			for (tr = 0; tr <= ro; tr++)
-			{
-				_putchar('#');
-			}
-			_putchar('\n');
-		}
-	}
+
+		return (0);
+
 }
