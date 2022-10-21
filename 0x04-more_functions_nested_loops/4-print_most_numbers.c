@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * print_line - Draws a straight line using the character _.
- * @n: The number of _ characters to be printed.
+ * print_most_numbers - Prints the numbers from 0-9 except for 2 and 4.
+ * return:Always 0
  */
-void print_line(int n)
+void print_most_numbers(void)
 {
-	int len;
+	int num;
 
-	if (n > 0)
+	for (num = 0; num <= 9; num++)
 	{
-		for (len = 0; len < n; len++)
-			_putchar('_');
+		if (num != 2 && num != 4)
+			_putchar((num % 10) + '0');
 	}
 
 	_putchar('\n');
