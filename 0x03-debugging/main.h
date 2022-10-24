@@ -1,4 +1,4 @@
-fndef MAIN_H
+#ifndef MAIN_H
 #define MAIN_H
 
 #include <stdio.h>
@@ -9,5 +9,4 @@ int largest_number(int a, int b, int c);
 void print_remaining_days(int month, int day, int year);
 void print_times_tablet(int n);
 
-#endif /* MAIN_H */
-
+#endif
