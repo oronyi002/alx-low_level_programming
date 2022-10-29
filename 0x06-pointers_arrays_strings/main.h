@@ -1,4 +1,4 @@
-#ifndef MAINN_H
+#ifndef MAIN_H
 #define MAIN_H
 
 int _putchar(char c);
@@ -12,4 +12,4 @@ char *cap_string(char *n);
 char *leet(char *n);
 char *rot13(char *n);
 
-#endif 
+#endif
